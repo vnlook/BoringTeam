@@ -1,3 +1,4 @@
+
 # 🚀 GitHub Organization Management  
 
 ## 1. Quản lý theo **Topic**  
@@ -28,7 +29,7 @@
 
 - **Project outsource**  
   - 🔒 **Private**  
-  - 🏷 **Topics**: `outsource`, `<name>`  
+  - 🏷 **Topics**: `outsource`, `<branch-name>`  
 
 - **Project demo tính năng hay ho**  
   - 🌍 **Public**  
@@ -43,5 +44,11 @@
   - 🏷 **Topics**: `prod`, `vnlook`, `libs`  
 
 ---
+## 3. Quy tắc folk **Repo**  
+- **Project folk**  
+  - Folk từ 1 repo public bắt buộc phải có liscence thương mại. 
+  - Đảm bảo khả năng sync folk nếu repo được folk đang dev
+  - Đối với các `repo cũ` trên github cá nhân, chỉ được **folk & sync** không được chỉnh sửa.   
 
+---
 📌 **Tuân theo các quy tắc không được sai sót.** 🚀🔥  

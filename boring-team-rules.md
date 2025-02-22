@@ -1,15 +1,47 @@
-1. Quản lý theo topic
-	1. Quy tắc đặt tag topic: map trúng cái nào thì thêm vào, có thể nhiều tag, riêng 3 cái đầu unique.
-		- prod: repo tự phát triển
-		- outsource: repo làm outsource
-		- chore : repo mini feature, demo, sponsor
-		- libs: repo libs, framework
-		- merchant <name>: để filter các repo của 1 project
-	2. Quy tắc đặt tên repo:
-		- <branch name>  - <project name> - <platform>: vnlook-iorder-web
-2. Quản lý permissions:
-	- Project tự phát triển: private, topic: prod, vnlook
-	- Project outsource: private, topic: outsource, <name>
-	- Project demo tính năng hay ho: public, topic: chore, vnlook
-	- Project folk của team khác: public, topic: prod, vnlook
-	- Framwork: public, topic: prod,vnlook,libs	
+# 🚀 GitHub Organization Management  
+
+## 1. Quản lý theo **Topic**  
+- **a. Quy tắc đặt tag topic**  
+  - Gán nhiều tag nếu phù hợp, nhưng **3 tag đầu tiên phải unique**.  
+  - **`prod`** – 🔥 Repositories tự phát triển.  
+  - **`outsource`** – 🤝 Repositories làm outsource.  
+  - **`chore`** – 🛠️ Mini feature, demo, sponsor.  
+  - **`libs`** – 📦 Libraries và frameworks.  
+  - **`merchant-{name}`** – 🏢 Dùng để filter các repo của **một project**.  
+
+- **b. Quy tắc đặt tên repository**  
+  - Format:  
+    ```  
+    {branch} - {project_name} - {platform}  
+    ```  
+  - Ví dụ:  
+    ```
+    vnlook-iorder-web
+    ```
+
+---
+
+## 2. Quản lý **Permissions**  
+- **Project tự phát triển**  
+  - 🔒 **Private**  
+  - 🏷 **Topics**: `prod`, `vnlook`  
+
+- **Project outsource**  
+  - 🔒 **Private**  
+  - 🏷 **Topics**: `outsource`, `<name>`  
+
+- **Project demo tính năng hay ho**  
+  - 🌍 **Public**  
+  - 🏷 **Topics**: `chore`, `vnlook`  
+
+- **Project fork từ team khác**  
+  - 🌍 **Public**  
+  - 🏷 **Topics**: `prod`, `vnlook`  
+
+- **Frameworks & Libraries**  
+  - 🌍 **Public**  
+  - 🏷 **Topics**: `prod`, `vnlook`, `libs`  
+
+---
+
+📌 **Tuân theo các quy tắc không được sai sót.** 🚀🔥  
